@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111DD62029CB884C00BBB2BA /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DD61F29CB884C00BBB2BA /* Filter.swift */; };
+		111DD62229CE309900BBB2BA /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DD62129CE309900BBB2BA /* ReportView.swift */; };
+		111DD62429CE360C00BBB2BA /* ReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DD62329CE360C00BBB2BA /* ReportViewModel.swift */; };
+		111DD62629D229FC00BBB2BA /* ReportListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DD62529D229FC00BBB2BA /* ReportListView.swift */; };
+		11204955291D748A006EFE34 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11204954291D748A006EFE34 /* Info.swift */; };
+		11204958291D792C006EFE34 /* CourtWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11204957291D792C006EFE34 /* CourtWatchViewModel.swift */; };
+		1120F098298AF5B60014E55C /* CW_Forms_3App.swift in Resources */ = {isa = PBXBuildFile; fileRef = 1120F097298AF5B60014E55C /* CW_Forms_3App.swift */; };
+		1120F0C2298B0DBB0014E55C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120F0C1298B0DBB0014E55C /* HomeView.swift */; };
+		1120F0C4298B1DF00014E55C /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120F0C3298B1DF00014E55C /* ReportsView.swift */; };
+		1120F0C6298B1DFF0014E55C /* ManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120F0C5298B1DFF0014E55C /* ManageView.swift */; };
+		115F4795291195AB00D5FDBE /* CW_Forms_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F4794291195AB00D5FDBE /* CW_Forms_3App.swift */; };
+		115F4797291195AB00D5FDBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F4796291195AB00D5FDBE /* ContentView.swift */; };
+		115F4799291195AD00D5FDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115F4798291195AD00D5FDBE /* Assets.xcassets */; };
+		115F479C291195AD00D5FDBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115F479B291195AD00D5FDBE /* Preview Assets.xcassets */; };
+		115F479E291195AD00D5FDBE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F479D291195AD00D5FDBE /* Persistence.swift */; };
+		115F47A1291195AD00D5FDBE /* CW_Forms_3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 115F479F291195AD00D5FDBE /* CW_Forms_3.xcdatamodeld */; };
+		115F47AC291195AD00D5FDBE /* CW_Forms_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F47AB291195AD00D5FDBE /* CW_Forms_3Tests.swift */; };
+		115F47B6291195AD00D5FDBE /* CW_Forms_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F47B5291195AD00D5FDBE /* CW_Forms_3UITests.swift */; };
+		115F47B8291195AD00D5FDBE /* CW_Forms_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F47B7291195AD00D5FDBE /* CW_Forms_3UITestsLaunchTests.swift */; };
+		119E337329919806004B4141 /* file-regular.svg in Resources */ = {isa = PBXBuildFile; fileRef = 119E337029919806004B4141 /* file-regular.svg */; };
+		119E337429919806004B4141 /* plus-solid.svg in Resources */ = {isa = PBXBuildFile; fileRef = 119E337129919806004B4141 /* plus-solid.svg */; };
+		119E337529919806004B4141 /* gear-solid.svg in Resources */ = {isa = PBXBuildFile; fileRef = 119E337229919806004B4141 /* gear-solid.svg */; };
+		119E33772994373D004B4141 /* JudgeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E33762994373D004B4141 /* JudgeList.swift */; };
+		119E337929943944004B4141 /* JudgeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E337829943944004B4141 /* JudgeListViewModel.swift */; };
+		119E337B299ADDA8004B4141 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E337A299ADDA8004B4141 /* AlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115F47A8291195AD00D5FDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115F4789291195AB00D5FDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115F4790291195AB00D5FDBE;
+			remoteInfo = "CW Forms 3";
+		};
+		115F47B2291195AD00D5FDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115F4789291195AB00D5FDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115F4790291195AB00D5FDBE;
+			remoteInfo = "CW Forms 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111DD61F29CB884C00BBB2BA /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		111DD62129CE309900BBB2BA /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		111DD62329CE360C00BBB2BA /* ReportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewModel.swift; sourceTree = "<group>"; };
+		111DD62529D229FC00BBB2BA /* ReportListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportListView.swift; sourceTree = "<group>"; };
+		112048EE291420D3006EFE34 /* CW Forms 3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CW Forms 3.entitlements"; sourceTree = "<group>"; };
+		11204954291D748A006EFE34 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		11204957291D792C006EFE34 /* CourtWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtWatchViewModel.swift; sourceTree = "<group>"; };
+		1120F097298AF5B60014E55C /* CW_Forms_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CW_Forms_3App.swift; path = "../../CW Forms 3/CW Forms 3/CW_Forms_3App.swift"; sourceTree = "<group>"; };
+		1120F0C1298B0DBB0014E55C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1120F0C3298B1DF00014E55C /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		1120F0C5298B1DFF0014E55C /* ManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageView.swift; sourceTree = "<group>"; };
+		115F4791291195AB00D5FDBE /* Court Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Court Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		115F4794291195AB00D5FDBE /* CW_Forms_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW_Forms_3App.swift; sourceTree = "<group>"; };
+		115F4796291195AB00D5FDBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		115F4798291195AD00D5FDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		115F479B291195AD00D5FDBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		115F479D291195AD00D5FDBE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		115F47A0291195AD00D5FDBE /* CW_Forms_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CW_Forms_3.xcdatamodel; sourceTree = "<group>"; };
+		115F47A2291195AD00D5FDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115F47A7291195AD00D5FDBE /* Court WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Court WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		115F47AB291195AD00D5FDBE /* CW_Forms_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW_Forms_3Tests.swift; sourceTree = "<group>"; };
+		115F47B1291195AD00D5FDBE /* Court WatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Court WatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		115F47B5291195AD00D5FDBE /* CW_Forms_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW_Forms_3UITests.swift; sourceTree = "<group>"; };
+		115F47B7291195AD00D5FDBE /* CW_Forms_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW_Forms_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		119E337029919806004B4141 /* file-regular.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "file-regular.svg"; path = "../../../../Downloads/file-regular.svg"; sourceTree = "<group>"; };
+		119E337129919806004B4141 /* plus-solid.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "plus-solid.svg"; path = "../../../../Downloads/plus-solid.svg"; sourceTree = "<group>"; };
+		119E337229919806004B4141 /* gear-solid.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "gear-solid.svg"; path = "../../../../Downloads/gear-solid.svg"; sourceTree = "<group>"; };
+		119E33762994373D004B4141 /* JudgeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeList.swift; sourceTree = "<group>"; };
+		119E337829943944004B4141 /* JudgeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeListViewModel.swift; sourceTree = "<group>"; };
+		119E337A299ADDA8004B4141 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115F478E291195AB00D5FDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115F47A4291195AD00D5FDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115F47AE291195AD00D5FDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11204951291D7439006EFE34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				119E33762994373D004B4141 /* JudgeList.swift */,
+				11204954291D748A006EFE34 /* Info.swift */,
+				111DD61F29CB884C00BBB2BA /* Filter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11204956291D78FB006EFE34 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				11204957291D792C006EFE34 /* CourtWatchViewModel.swift */,
+				119E337829943944004B4141 /* JudgeListViewModel.swift */,
+				111DD62329CE360C00BBB2BA /* ReportViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		115F4788291195AB00D5FDBE = {
+			isa = PBXGroup;
+			children = (
+				115F4793291195AB00D5FDBE /* CW Forms 3 */,
+				115F47AA291195AD00D5FDBE /* CW Forms 3Tests */,
+				115F47B4291195AD00D5FDBE /* CW Forms 3UITests */,
+				115F4792291195AB00D5FDBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115F4792291195AB00D5FDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115F4791291195AB00D5FDBE /* Court Watch.app */,
+				115F47A7291195AD00D5FDBE /* Court WatchTests.xctest */,
+				115F47B1291195AD00D5FDBE /* Court WatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115F4793291195AB00D5FDBE /* CW Forms 3 */ = {
+			isa = PBXGroup;
+			children = (
+				11204956291D78FB006EFE34 /* View Models */,
+				11204951291D7439006EFE34 /* Models */,
+				112048EE291420D3006EFE34 /* CW Forms 3.entitlements */,
+				115F4794291195AB00D5FDBE /* CW_Forms_3App.swift */,
+				115F4796291195AB00D5FDBE /* ContentView.swift */,
+				1120F0C1298B0DBB0014E55C /* HomeView.swift */,
+				1120F0C3298B1DF00014E55C /* ReportsView.swift */,
+				1120F0C5298B1DFF0014E55C /* ManageView.swift */,
+				119E337A299ADDA8004B4141 /* AlertView.swift */,
+				119E337029919806004B4141 /* file-regular.svg */,
+				119E337229919806004B4141 /* gear-solid.svg */,
+				119E337129919806004B4141 /* plus-solid.svg */,
+				115F4798291195AD00D5FDBE /* Assets.xcassets */,
+				1120F097298AF5B60014E55C /* CW_Forms_3App.swift */,
+				115F479D291195AD00D5FDBE /* Persistence.swift */,
+				115F47A2291195AD00D5FDBE /* Info.plist */,
+				115F479F291195AD00D5FDBE /* CW_Forms_3.xcdatamodeld */,
+				115F479A291195AD00D5FDBE /* Preview Content */,
+				111DD62129CE309900BBB2BA /* ReportView.swift */,
+				111DD62529D229FC00BBB2BA /* ReportListView.swift */,
+			);
+			path = "CW Forms 3";
+			sourceTree = "<group>";
+		};
+		115F479A291195AD00D5FDBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				115F479B291195AD00D5FDBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		115F47AA291195AD00D5FDBE /* CW Forms 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				115F47AB291195AD00D5FDBE /* CW_Forms_3Tests.swift */,
+			);
+			path = "CW Forms 3Tests";
+			sourceTree = "<group>";
+		};
+		115F47B4291195AD00D5FDBE /* CW Forms 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				115F47B5291195AD00D5FDBE /* CW_Forms_3UITests.swift */,
+				115F47B7291195AD00D5FDBE /* CW_Forms_3UITestsLaunchTests.swift */,
+			);
+			path = "CW Forms 3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115F4790291195AB00D5FDBE /* Court Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115F47BB291195AD00D5FDBE /* Build configuration list for PBXNativeTarget "Court Watch" */;
+			buildPhases = (
+				115F478D291195AB00D5FDBE /* Sources */,
+				115F478E291195AB00D5FDBE /* Frameworks */,
+				115F478F291195AB00D5FDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Court Watch";
+			productName = "CW Forms 3";
+			productReference = 115F4791291195AB00D5FDBE /* Court Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		115F47A6291195AD00D5FDBE /* Court WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115F47BE291195AD00D5FDBE /* Build configuration list for PBXNativeTarget "Court WatchTests" */;
+			buildPhases = (
+				115F47A3291195AD00D5FDBE /* Sources */,
+				115F47A4291195AD00D5FDBE /* Frameworks */,
+				115F47A5291195AD00D5FDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115F47A9291195AD00D5FDBE /* PBXTargetDependency */,
+			);
+			name = "Court WatchTests";
+			productName = "CW Forms 3Tests";
+			productReference = 115F47A7291195AD00D5FDBE /* Court WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		115F47B0291195AD00D5FDBE /* Court WatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115F47C1291195AD00D5FDBE /* Build configuration list for PBXNativeTarget "Court WatchUITests" */;
+			buildPhases = (
+				115F47AD291195AD00D5FDBE /* Sources */,
+				115F47AE291195AD00D5FDBE /* Frameworks */,
+				115F47AF291195AD00D5FDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115F47B3291195AD00D5FDBE /* PBXTargetDependency */,
+			);
+			name = "Court WatchUITests";
+			productName = "CW Forms 3UITests";
+			productReference = 115F47B1291195AD00D5FDBE /* Court WatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115F4789291195AB00D5FDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					115F4790291195AB00D5FDBE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					115F47A6291195AD00D5FDBE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 115F4790291195AB00D5FDBE;
+					};
+					115F47B0291195AD00D5FDBE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 115F4790291195AB00D5FDBE;
+					};
+				};
+			};
+			buildConfigurationList = 115F478C291195AB00D5FDBE /* Build configuration list for PBXProject "Court Watch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115F4788291195AB00D5FDBE;
+			productRefGroup = 115F4792291195AB00D5FDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115F4790291195AB00D5FDBE /* Court Watch */,
+				115F47A6291195AD00D5FDBE /* Court WatchTests */,
+				115F47B0291195AD00D5FDBE /* Court WatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115F478F291195AB00D5FDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115F479C291195AD00D5FDBE /* Preview Assets.xcassets in Resources */,
+				119E337329919806004B4141 /* file-regular.svg in Resources */,
+				115F4799291195AD00D5FDBE /* Assets.xcassets in Resources */,
+				119E337529919806004B4141 /* gear-solid.svg in Resources */,
+				119E337429919806004B4141 /* plus-solid.svg in Resources */,
+				1120F098298AF5B60014E55C /* CW_Forms_3App.swift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115F47A5291195AD00D5FDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115F47AF291195AD00D5FDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115F478D291195AB00D5FDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11204958291D792C006EFE34 /* CourtWatchViewModel.swift in Sources */,
+				1120F0C2298B0DBB0014E55C /* HomeView.swift in Sources */,
+				111DD62629D229FC00BBB2BA /* ReportListView.swift in Sources */,
+				115F479E291195AD00D5FDBE /* Persistence.swift in Sources */,
+				1120F0C6298B1DFF0014E55C /* ManageView.swift in Sources */,
+				111DD62229CE309900BBB2BA /* ReportView.swift in Sources */,
+				115F47A1291195AD00D5FDBE /* CW_Forms_3.xcdatamodeld in Sources */,
+				119E337B299ADDA8004B4141 /* AlertView.swift in Sources */,
+				115F4797291195AB00D5FDBE /* ContentView.swift in Sources */,
+				11204955291D748A006EFE34 /* Info.swift in Sources */,
+				111DD62429CE360C00BBB2BA /* ReportViewModel.swift in Sources */,
+				1120F0C4298B1DF00014E55C /* ReportsView.swift in Sources */,
+				119E337929943944004B4141 /* JudgeListViewModel.swift in Sources */,
+				111DD62029CB884C00BBB2BA /* Filter.swift in Sources */,
+				115F4795291195AB00D5FDBE /* CW_Forms_3App.swift in Sources */,
+				119E33772994373D004B4141 /* JudgeList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115F47A3291195AD00D5FDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115F47AC291195AD00D5FDBE /* CW_Forms_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115F47AD291195AD00D5FDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115F47B8291195AD00D5FDBE /* CW_Forms_3UITestsLaunchTests.swift in Sources */,
+				115F47B6291195AD00D5FDBE /* CW_Forms_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115F47A9291195AD00D5FDBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115F4790291195AB00D5FDBE /* Court Watch */;
+			targetProxy = 115F47A8291195AD00D5FDBE /* PBXContainerItemProxy */;
+		};
+		115F47B3291195AD00D5FDBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115F4790291195AB00D5FDBE /* Court Watch */;
+			targetProxy = 115F47B2291195AD00D5FDBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		115F47B9291195AD00D5FDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115F47BA291195AD00D5FDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115F47BC291195AD00D5FDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CW Forms 3/CW Forms 3.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CW Forms 3/Preview Content\"";
+				DEVELOPMENT_TEAM = VKLXJ93678;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.CW-Forms-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		115F47BD291195AD00D5FDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CW Forms 3/CW Forms 3.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CW Forms 3/Preview Content\"";
+				DEVELOPMENT_TEAM = VKLXJ93678;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.CW-Forms-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		115F47BF291195AD00D5FDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.CW-Forms-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Court Watch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Court Watch";
+			};
+			name = Debug;
+		};
+		115F47C0291195AD00D5FDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.CW-Forms-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Court Watch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Court Watch";
+			};
+			name = Release;
+		};
+		115F47C2291195AD00D5FDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.CW-Forms-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CW Forms 3";
+			};
+			name = Debug;
+		};
+		115F47C3291195AD00D5FDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.CW-Forms-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CW Forms 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115F478C291195AB00D5FDBE /* Build configuration list for PBXProject "Court Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115F47B9291195AD00D5FDBE /* Debug */,
+				115F47BA291195AD00D5FDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115F47BB291195AD00D5FDBE /* Build configuration list for PBXNativeTarget "Court Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115F47BC291195AD00D5FDBE /* Debug */,
+				115F47BD291195AD00D5FDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115F47BE291195AD00D5FDBE /* Build configuration list for PBXNativeTarget "Court WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115F47BF291195AD00D5FDBE /* Debug */,
+				115F47C0291195AD00D5FDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115F47C1291195AD00D5FDBE /* Build configuration list for PBXNativeTarget "Court WatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115F47C2291195AD00D5FDBE /* Debug */,
+				115F47C3291195AD00D5FDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		115F479F291195AD00D5FDBE /* CW_Forms_3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				115F47A0291195AD00D5FDBE /* CW_Forms_3.xcdatamodel */,
+			);
+			currentVersion = 115F47A0291195AD00D5FDBE /* CW_Forms_3.xcdatamodel */;
+			path = CW_Forms_3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 115F4789291195AB00D5FDBE /* Project object */;
+}
